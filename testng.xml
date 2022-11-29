@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+  <test name="Nopackage" >
+    <classes>
+       <class name="in.at.maven.firsttestscriptTest"/>
+    </classes>
+  </test>
+  </suite>
+
+
+<!--if u give class name it will execute all method which are there inside that class-->
+<!--if I wants to execute perticualr groups (like sanity or Regression group then i have to make below changes in my testng.xml)-->
+ <!--suite name="Suite1" verbose="1" > 
+<test name="Test1">
+  <groups>
+    <run>
+      <include name="SanityTest"/>
+    </run>
+  </groups>
+  <classes>
+    <class name="in.at.maven.firsttestscriptTest"/>
+  </classes>
+</test>
+<test name="Test2">
+  <groups>
+    <run>
+      <include name="RegressionTest"/>
+    </run>
+  </groups>
+  <classes>
+    <class name="in.at.maven.firsttestscriptTest"/>
+  </classes>
+</test>
+</suite-->
+
+<!--// if i wants to execute on Sanitygroups and i dont wants to execute regression group then we can mention like this
+<suite name="Suite1" verbose="1" >
+  <test name="Nopackage" >
+  <groups>
+  <run>
+  <include name ="SanityTest"/>
+  <exclude name = "RegressionTest"/>
+  </run>
+  </groups>
+    <classes>
+       <class name="in.at.maven.firsttestscriptTest"/>
+    </classes>
+  </test>
+  </suite-->
+
+  

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="18690" started-at="2022-11-26T14:29:14 IST" finished-at="2022-11-26T14:29:33 IST">
+    <groups>
+      <group name="SanityTest">
+        <method signature="firsttestscriptTest.test1()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test1" class="in.at.maven.firsttestscriptTest"/>
+        <method signature="firsttestscriptTest.test2()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test2" class="in.at.maven.firsttestscriptTest"/>
+        <method signature="firsttestscriptTest.test3()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test3" class="in.at.maven.firsttestscriptTest"/>
+      </group> <!-- SanityTest -->
+      <group name="RegressionTest">
+        <method signature="firsttestscriptTest.test1()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test1" class="in.at.maven.firsttestscriptTest"/>
+        <method signature="firsttestscriptTest.test4()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test4" class="in.at.maven.firsttestscriptTest"/>
+        <method signature="firsttestscriptTest.test5()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test5" class="in.at.maven.firsttestscriptTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Nopackage" duration-ms="18690" started-at="2022-11-26T14:29:14 IST" finished-at="2022-11-26T14:29:33 IST">
+      <class name="in.at.maven.firsttestscriptTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test1" duration-ms="18611" started-at="2022-11-26T14:29:14 IST" finished-at="2022-11-26T14:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test2" duration-ms="0" started-at="2022-11-26T14:29:33 IST" finished-at="2022-11-26T14:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test3" duration-ms="0" started-at="2022-11-26T14:29:33 IST" finished-at="2022-11-26T14:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test4" duration-ms="0" started-at="2022-11-26T14:29:33 IST" finished-at="2022-11-26T14:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:in.at.maven.firsttestscriptTest@2eb917d0]" name="test5" duration-ms="1" started-at="2022-11-26T14:29:33 IST" finished-at="2022-11-26T14:29:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- in.at.maven.firsttestscriptTest -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
